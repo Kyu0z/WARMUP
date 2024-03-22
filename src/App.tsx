@@ -1,18 +1,8 @@
 import "./App.css";
-import TasksForm from "@src/components/Tasks/TasksForm";
-import TasksList from "@src/components/Tasks/TasksList";
-import { TaskProvider } from "./context/TasksContext";
+import Cart from "./components/Cart";
 
 const App = () => {
-  return (
-    <div>
-      <TaskProvider>
-        <h1>MANAGE TASKS</h1>
-        <TasksForm />
-        <TasksList />
-      </TaskProvider>
-    </div>
-  );
+  return <Cart />;
 };
 
 export default App;
