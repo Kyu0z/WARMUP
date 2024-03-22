@@ -1,8 +1,8 @@
 import "./App.css";
-import Cart from "./components/Cart";
+import UserList from "./components/mock/UserList";
 
 const App = () => {
-  return <Cart />;
+  return <UserList />;
 };
 
 export default App;
